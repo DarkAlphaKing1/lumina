@@ -4,10 +4,10 @@ import { Mail, Phone, MapPin, Instagram, Facebook, Linkedin, ArrowUp } from "luc
 
 const Footer = () => {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo ( { top: 0, behavior: 'smooth' });
   };
 
-  return (
+  return ( 
     <footer className="bg-charcoal text-background relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
@@ -40,15 +40,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-accent" />
-                <span className="text-background/80">+1 (555) 123-4567</span>
+                <span className="text-background/80">+254 746998526</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-accent" />
-                <span className="text-background/80">hello@luminadesign.com</span>
+                <span className="text-background/80">hello@ART_MOSPHERIC.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={16} className="text-accent" />
-                <span className="text-background/80">123 Design Avenue, New York, NY 10001</span>
+                <span className="text-background/80">67000 Nirobi, Kenya</span>
               </div>
             </div>
           </motion.div>
@@ -178,7 +178,7 @@ const Footer = () => {
             className="flex items-center gap-4"
           >
             <div className="flex items-center gap-3">
-              {[
+              { [
                 { icon: Instagram, href: "https://instagram.com" },
                 { icon: Facebook, href: "https://facebook.com" },
                 { icon: Linkedin, href: "https://linkedin.com" }

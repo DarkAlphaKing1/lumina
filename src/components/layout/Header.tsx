@@ -29,7 +29,7 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            LUMINA
+            ART_MOSPHERIC
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -66,7 +66,7 @@ const Header = () => {
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            { isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </Button>
         </div>
 
